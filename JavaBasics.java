@@ -531,25 +531,96 @@ public class JavaBasics
         /**
          * Check if a number is prime or not 
          */
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter Your Number:-");
-        int n = sc.nextInt();
+        // Scanner sc = new Scanner(System.in);
+        // System.out.println("Enter Your Number:-");
+        // int n = sc.nextInt();
         
-        if(n == 2){
-            System.out.println( n+" is Prime");
-        }else{
-            boolean isPrime = true;
-            for(int i = 2; i <= Math.sqrt(n); i++){
-                if(n % i == 0){
-                    isPrime = false;
-                }
-            }
+        // if(n == 2){
+        //     System.out.println( n+" is Prime");
+        // }else{
+        //     boolean isPrime = true;
+        //     for(int i = 2; i <= Math.sqrt(n); i++){
+        //         if(n % i == 0){
+        //             isPrime = false;
+        //         }
+        //     }
     
-            if(isPrime == true){
-                System.out.println(n+" is Prime");
-            }else{
-                System.out.println(n+" is not Prime");
-            }
-        }
+        //     if(isPrime == true){
+        //         System.out.println(n+" is Prime");
+        //     }else{
+        //         System.out.println(n+" is not Prime");
+        //     }
+        // }
+
+
+        /**
+         * Print Star Pattern:- 
+         */
+        // Scanner sc = new Scanner(System.in);
+        // System.out.println("Enter Your Number:-");
+        // int n = sc.nextInt();
+        // for(int row = 1; row <= n; row++)
+        // {
+        //     for(int col = 1; col <= row; col++)
+        //     {
+        //         System.out.print("*");
+        //     }
+        //     System.out.println();
+        // }
+
+        /**
+         * Inverted-Star Pattern:-
+         */
+
+        // Scanner sc = new Scanner(System.in);
+        // System.out.println("Enter Your Number:-");
+        // int n = sc.nextInt();
+        // for( int row = 1; row <= n; row++){
+        //     for(int col=1; col<=(n-row)+1; col++){
+        //         System.out.print("*");
+        //     }
+        //     System.out.println();
+        // }
+
+        /**
+         * Print Half-PYRAMID Pattern:-
+         */
+
+        // Scanner sc = new Scanner(System.in);
+        // System.out.println("Enter Your Numbeer:-");
+        // int n = sc.nextInt();
+        // for(int row = 1; row <= n; row ++){
+        //     for (int col = 1; col<=row; col++){
+        //         System.out.print(col);
+        //     }
+        //     System.out.println();
+        // }
+
+        /**
+         * Print character Pattern:-
+         * 
+         * A
+         * BC
+         * DEF
+         * GHIJ
+         */
+
+        // System.out.println("Enter Your Number:-");
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        // char ch = 'A';
+        // for(int row = 1; row <=n; row++){
+        //     for(int col = 1; col<=row; col++){
+        //         System.out.print(ch);
+        //         ch++;
+        //     }
+        //     System.out.println();
+        // }
+
+
+        
+        /**
+         * Functions & Methods:-
+         */
     }
 } 
